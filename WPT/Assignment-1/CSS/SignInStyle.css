@@ -1,0 +1,123 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(to right, #f8f9fa, #e0f7fa);
+    font-size: 16px;
+}
+
+.total {
+    display: flex;
+    width: 80%;
+    max-width: 900px;
+    border-radius: 20px;
+    border: 2px solid #000;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+#box-1, #box-2 {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 40px 20px;
+}
+
+#box-1 {
+    background-color: #ffffff;
+    color: #333;
+}
+
+#box-2 {
+    background-color: #005f73;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 15px;
+    margin: 10px 0 20px;
+}
+
+.form-field {
+    width: 80%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 14px;
+    outline: none;
+    background-color: transparent;
+    color: #333;
+}
+
+.form-field::placeholder {
+    color: #aaa;
+}
+
+button {
+    width: 60%;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: green;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: #00bcd4;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#box-2 button {
+    background-color: #0a9396;
+    color: white;
+    margin-top: 20px;
+}
+
+#box-2 button:hover {
+    background-color: #94d2bd;
+    color: #0a9396;
+}
+
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #6c63ff;
+    border: 2px solid #6c63ff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.button-link:hover {
+    background-color: #6c63ff;
+    color: white;
+}
