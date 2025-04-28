@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="../css/Registration.css">
+</head>
+<body>
+    <h1 class="form-title">STUDENT REGISTRATION FORM</h1>
+    <form action="../html/Resume.html">
+        <label>FIRST NAME:</label>
+        <span><input type="text" placeholder="Enter First Name"> (max 30 characters a-z and A-Z)</span>
+        <br><br>
+
+        <label>LAST NAME:</label>
+        <span><input type="text" placeholder="Enter Last Name"> (max 30 characters a-z and A-Z)</span>
+        <br><br>
+
+        <label>DATE OF BIRTH:</label>
+        <span><input type="date"></span>
+        <br><br>
+
+        <label>EMAIL ID:</label>
+        <span><input type="email" placeholder="Enter Email ID"></span>
+        <br><br>
+
+        <label>MOBILE NUMBER:</label>
+        <span><input type="text" placeholder="Enter Phone No"> (10 digit number)</span>
+        <br><br>
+
+        <label>GENDER:</label>
+        <input type="radio" name="gender" id="male"><label for="male">Male</label>
+        <input type="radio" name="gender" id="female"><label for="female">Female</label>
+        <br><br>
+
+        <label>ADDRESS:</label>
+        <textarea placeholder="Enter your Address"></textarea>
+        <br><br>
+
+        <label>CITY:</label>
+        <span><input type="text" placeholder="Enter your city"> (max 30 characters a-z and A-Z)</span>
+        <br><br>
+
+        <label>PINCODE:</label>
+        <span><input type="text" placeholder="Enter your pincode"> (6 digit number)</span>
+        <br><br>
+
+        <label>STATE:</label>
+        <span><input type="text" placeholder="Enter your state"> (max 30 characters a-z and A-Z)</span>
+        <br><br>
+
+        <label>COUNTRY:</label>
+        <span><input type="text" placeholder="Enter your country"></span>
+        <br><br>
+
+        <label>HOBBIES:</label>
+        <input type="checkbox" id="drawing"><label for="drawing">Drawing</label>
+        <input type="checkbox" id="dancing"><label for="dancing">Dancing</label>
+        <input type="checkbox" id="sketching"><label for="sketching">Sketching</label>
+        <input type="checkbox" id="others"><label for="others">Others</label>
+        <input type="text" placeholder="Enter your hobbies">
+        <br><br>
+
+        <label>QUALIFICATION:</label>
+        <table border="1" cellpadding="10" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>SI.No.</th>
+                    <th>Examination</th>
+                    <th>Board</th>
+                    <th>Percentage</th>
+                    <th>Year of Passing</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Class X</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Class XII</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Graduation</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Masters</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+            </tbody>
+        </table>
+        <br><br>
+
+        <label>COURSES APPLIED FOR:</label>
+        <select>
+            <option>BCA</option>
+            <option>B.Com</option>
+            <option>B.Sc</option>
+            <option>B.A</option>
+        </select>
+        <br><br>
+
+        <div class="buttons">
+            <button type="submit" class="submit-btn">Submit</button>
+            <button type="reset" class="reset-btn">Reset</button>
+        </div>
+    </form>
+</body>
+</html>
